@@ -17,9 +17,9 @@ img, .search-wrapper .left, .search-wrapper .right, ul.sp-results li.viewall a, 
 #globalfooter #breadcrumbs, #globalfooter #breadcrumbs span, #directorynav .capbottom, 
 #productheader h1 a, #productheader h2 a, 
 #productheader a.buynow, #productheader a.ordernow, #productheader a.joinnow, #productheader a.preorder, #productheader a.howtobuy, #productheader a.howtoapply,
-#productheader a.freetrial, #productheader a.downloadnow, #productheader a.upgradenow, #productheader a.notifyme { behavior: url(/web/20100711050458im_/http://www.apple.com.cn/global/scripts/lib/iepngfix.htc); }
+#productheader a.freetrial, #productheader a.downloadnow, #productheader a.upgradenow, #productheader a.notifyme { behavior: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/scripts/lib/iepngfix.htc); }
 
-img { border: 0; behavior: url(http://www.apple.com.cn/global/scripts/lib/iepngfix.htc); }
+img { border: 0; behavior: url(http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/scripts/lib/iepngfix.htc); }
 img.left { float: left; margin: 2px 20px 16px 0; }
 img.right { float: right; margin: 2px 0 16px 20px; }
 img.across { margin: 2px 0 16px 0; }
@@ -86,9 +86,9 @@ body { font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, s
 a { color: #08c; }
 a:link, a:visited, a:active { text-decoration: none; }
 a:hover { text-decoration: underline; }
-a.more { white-space: nowrap; padding-right: 10px; background: url(/global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; zoom: 1; }
-a.external { white-space: nowrap; padding-right: 15px; background: url(/global/elements/icons/external10x10.gif) no-repeat 100% 49%; zoom: 1; }
-a[rel="external"] { white-space: nowrap; padding-right: 15px; background: url(/global/elements/icons/external10x10.gif) no-repeat 100% 49%; zoom: 1; }
+a.more { white-space: nowrap; padding-right: 10px; background: url(/Classic-Apple-Homepage-CN/global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; zoom: 1; }
+a.external { white-space: nowrap; padding-right: 15px; background: url(/Classic-Apple-Homepage-CN/global/elements/icons/external10x10.gif) no-repeat 100% 49%; zoom: 1; }
+a[rel="external"] { white-space: nowrap; padding-right: 15px; background: url(/Classic-Apple-Homepage-CN/global/elements/icons/external10x10.gif) no-repeat 100% 49%; zoom: 1; }
 strong, b { font-weight: bold; }
 em, i { font-style: italic; }
 sup { padding-left: 1px; font-size: 10px !important; font-weight: normal !important; vertical-align: baseline; position: relative; bottom: 0.33em; color: #76797c; _position: static !important; }
@@ -114,15 +114,15 @@ ul ul.circle,
 ul ul.square { margin-top: 4px; margin-bottom: 5px; }
 ol.sosumi { margin-left: 0; padding-left: 2em; }
 
-a.pdf { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/icons/globaliconpdf12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.html { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/icons/globaliconhtml12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.qt { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/icons/globaliconqt12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.ical { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/icons/globaliconical12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.dl { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/icons/globalicondl11x10.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.dmg { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/icons/globalicondmg12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.zip { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/icons/globaliconzip12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.keynote { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/icons/globaliconkeynote12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
-a.audio { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/icons/globaliconaudio12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.pdf { background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/icons/globaliconpdf12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.html { background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/icons/globaliconhtml12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.qt { background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/icons/globaliconqt12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.ical { background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/icons/globaliconical12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.dl { background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/icons/globalicondl11x10.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.dmg { background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/icons/globalicondmg12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.zip { background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/icons/globaliconzip12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.keynote { background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/icons/globaliconkeynote12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.audio { background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/icons/globaliconaudio12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
 
 .last { margin-bottom: 0; }
 #main .sidebar { font-size: 10px; line-height: 18px; color:#686868; }
@@ -159,22 +159,22 @@ a.audio { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/
 #globalfooter ul.piped a.choose img { vertical-align: middle; margin-top: -5px; position: relative; }
 
 /*--- Breadcrumbs (legacy) ---*/
-#globalfooter #breadcrumbs { font-size: 11px; color: #444; background: url(/web/20100711050458im_/http://www.apple.com.cn/global/nav/images/breadcrumb_bg.png) no-repeat; overflow: hidden; height: 36px; line-height: 34px; font-weight: bold; text-shadow: 0 1px 0 #fff; }
+#globalfooter #breadcrumbs { font-size: 11px; color: #444; background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/nav/images/breadcrumb_bg.png) no-repeat; overflow: hidden; height: 36px; line-height: 34px; font-weight: bold; text-shadow: 0 1px 0 #fff; }
 #globalfooter #breadcrumbs a { color: #444; text-decoration: none; float: left; padding: 0 10px; position: relative; margin-left: -10px; _cursor: hand; }
 #globalfooter #breadcrumbs a:hover { color: #333; text-decoration: none !important; }
 #globalfooter #breadcrumbs a.home { margin: 0; width: 15px; height: 0; padding-top: 36px; overflow: hidden; }
-#globalfooter #breadcrumbs span { float: left; width: 9px; margin: 0 10px 0 0; position: relative; height: 0; padding-top: 34px; margin-top: 1px; overflow: hidden; background: url(/web/20100711050458im_/http://www.apple.com.cn/global/nav/images/breadcrumb_sep.png) no-repeat; }
+#globalfooter #breadcrumbs span { float: left; width: 9px; margin: 0 10px 0 0; position: relative; height: 0; padding-top: 34px; margin-top: 1px; overflow: hidden; background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/nav/images/breadcrumb_sep.png) no-repeat; }
 
 /*--- Breadcrumbs ---*/
-#globalfooter ol#breadcrumbs { font-size: 11px; color: #444; background: url(/web/20100711050458im_/http://www.apple.com.cn/global/nav/images/breadcrumb_bg.png) no-repeat; height: 36px; line-height: 34px; margin: 0; list-style: none; font-weight: bold; text-shadow: 0 1px 0 #fff; }
-#globalfooter ol#breadcrumbs li { float: left; margin: 0; padding: 0 0 0 20px; background: url(/web/20100711050458im_/http://www.apple.com.cn/global/nav/images/breadcrumb_sep_20080909.png) no-repeat; }
+#globalfooter ol#breadcrumbs { font-size: 11px; color: #444; background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/nav/images/breadcrumb_bg.png) no-repeat; height: 36px; line-height: 34px; margin: 0; list-style: none; font-weight: bold; text-shadow: 0 1px 0 #fff; }
+#globalfooter ol#breadcrumbs li { float: left; margin: 0; padding: 0 0 0 20px; background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/nav/images/breadcrumb_sep_20080909.png) no-repeat; }
 #globalfooter ol#breadcrumbs li a { float: left; color: #444; text-decoration: none; padding: 0 10px; margin-left: -10px; }
 #globalfooter ol#breadcrumbs li a:hover { color: #333; text-decoration: none; }
 #globalfooter ol#breadcrumbs li.home { background: none; margin: 0; padding: 0; }
 #globalfooter ol#breadcrumbs li.home a { margin: 0; padding: 0 10px; width: 15px; text-indent: -9999px; overflow: hidden; }
 
 /*--- Directory Nav ---*/
-#directorynav { font-size: 11px; background: url(/web/20100711050458im_/http://www.apple.com.cn/global/nav/images/directory_bg.png) repeat-y; border-top: 1px solid #e5e5e5; float: left; width: 100%; position: relative; margin-top: -4px; }
+#directorynav { font-size: 11px; background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/nav/images/directory_bg.png) repeat-y; border-top: 1px solid #e5e5e5; float: left; width: 100%; position: relative; margin-top: -4px; }
 #directorynav .column { width: 122px; padding: 9px 0 4px 18px; }
 #directorynav .column.last { float: left !important; padding-right: 0; }
 #directorynav h3 { color: #666; font-weight: bold; }
@@ -183,7 +183,7 @@ a.audio { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/
 #directorynav h3.standalone a:link,
 #directorynav h3.standalone a:visited { color: #444; }
 #directorynav a:hover { color: #333 !important; text-decoration: none !important; }
-#directorynav .capbottom { clear: both; position: relative; top: 5px; _top: 12px; height: 5px; width: 980px; background: url(/web/20100711050458im_/http://www.apple.com.cn/global/nav/images/directory_capbg.png) no-repeat; }
+#directorynav .capbottom { clear: both; position: relative; top: 5px; _top: 12px; height: 5px; width: 980px; background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/nav/images/directory_capbg.png) no-repeat; }
 #directorynav ul { margin-bottom: 0; padding-bottom: 9px; }
 #directorynav .column { width: 120px; }
 #directorynav.mac #dn-cola { width: 120px; }
@@ -204,11 +204,11 @@ a.audio { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/
 }
 #globalfooter #breadory ol#breadcrumbs { background: none; clear: both; float: none; height: 3em; line-height: 3em; font-size: 11px; color: #666; margin: 0; list-style: none; font-weight: bold; text-shadow: 0 1px 0 #fff; }
 #breadory ol#breadcrumbs li { background: none; float: left; margin: 0; padding: 0 0 0 1em; }
-#breadory ol#breadcrumbs li a { float: left; color: #666; text-decoration: none; padding: 0 1.75em 0 0; margin-left: 0px; background: url(/web/20100711050458im_/http://www.apple.com.cn/global/nav/images/breadcrumb_separator.png) no-repeat 100% 50%; }
+#breadory ol#breadcrumbs li a { float: left; color: #666; text-decoration: none; padding: 0 1.75em 0 0; margin-left: 0px; background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/nav/images/breadcrumb_separator.png) no-repeat 100% 50%; }
 #breadory ol#breadcrumbs li a:hover { color: #333; text-decoration: none; }
 #breadory ol#breadcrumbs li.home { background: none; margin: 0; padding: 0; }
-#breadory ol#breadcrumbs li.home a { background: url(/web/20100711050458im_/http://www.apple.com.cn/global/nav/images/breadcrumb_home.png) no-repeat 1.25em 50%; margin: 0; padding: 0 0 0 1.25em; width: 30px; text-indent: -9999px; overflow: hidden; }
-#breadory ol#breadcrumbs li.home a:hover { background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/nav/images/breadcrumb_home_over.png); }
+#breadory ol#breadcrumbs li.home a { background: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/nav/images/breadcrumb_home.png) no-repeat 1.25em 50%; margin: 0; padding: 0 0 0 1.25em; width: 30px; text-indent: -9999px; overflow: hidden; }
+#breadory ol#breadcrumbs li.home a:hover { background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/nav/images/breadcrumb_home_over.png); }
 
 #breadory #directorynav { background: none; clear: both; float: none; margin-top: 0; }
 #breadory #directorynav .capbottom { height: 0; font-size: 1px; _display: none; }
@@ -240,18 +240,18 @@ body#overview #productheader h2 a { cursor: default; }
 #productheader a.tryamac { height: 25px; margin: 0.7em 0 0 20px; background-position: 0 0; background-repeat: no-repeat; display: block; float: right; position: relative; text-decoration: none; text-indent: -9999px; outline: none; overflow: hidden; }
 #productheader a.notifyme { height: 25px; margin: 0.8em 0 0 20px; background-position: 0 0; background-repeat: no-repeat; display: block; float: right; position: relative; text-decoration: none; text-indent: -9999px; outline: none; overflow: hidden; }
 
-#productheader a.preorder_blue { width: 75px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/preorder_blue.png); }
-#productheader a.buynow { width: 72px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/buynows.png); *background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/buynows.gif); }
-#productheader a.ordernow { width: 81px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/ordernows.png); *background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/ordernows.gif); }
-#productheader a.joinnow { width: 72px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/joinnows.png); *background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/joinnows.gif); }
-#productheader a.preorder { width: 99px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/preordernows.png); *background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/preordernows.gif); }
-#productheader a.howtobuy { width: 86px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/howtobuys.png); *background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/howtobuys.gif); }
-#productheader a.howtoapply { width: 100px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/howtoapplys.png); *background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/howtoapplys.gif); }
-#productheader a.freetrial { width: 72px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/freetrials.png); *background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/freetrials.gif); }
-#productheader a.downloadnow { width: 108px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/downloadnows.png); *background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/downloadnows.gif); }
-#productheader a.upgradenow { width: 104px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/upgradenows0422.png); *background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/upgradenows0422.gif); }
-#productheader a.tryamac { width: 77px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/tryamacs.png); *background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/tryamacs.gif); }
-#productheader a.notifyme { width: 75px; background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/notifymes.png); *background-image: url(/web/20100711050458im_/http://www.apple.com.cn/global/elements/buttons/notifymes.gif); }
+#productheader a.preorder_blue { width: 75px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/preorder_blue.png); }
+#productheader a.buynow { width: 72px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/buynows.png); *background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/buynows.gif); }
+#productheader a.ordernow { width: 81px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/ordernows.png); *background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/ordernows.gif); }
+#productheader a.joinnow { width: 72px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/joinnows.png); *background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/joinnows.gif); }
+#productheader a.preorder { width: 99px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/preordernows.png); *background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/preordernows.gif); }
+#productheader a.howtobuy { width: 86px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/howtobuys.png); *background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/howtobuys.gif); }
+#productheader a.howtoapply { width: 100px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/howtoapplys.png); *background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/howtoapplys.gif); }
+#productheader a.freetrial { width: 72px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/freetrials.png); *background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/freetrials.gif); }
+#productheader a.downloadnow { width: 108px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/downloadnows.png); *background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/downloadnows.gif); }
+#productheader a.upgradenow { width: 104px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/upgradenows0422.png); *background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/upgradenows0422.gif); }
+#productheader a.tryamac { width: 77px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/tryamacs.png); *background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/tryamacs.gif); }
+#productheader a.notifyme { width: 75px; background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/notifymes.png); *background-image: url(/http://www.apple.com.cn/Classic-Apple-Homepage-CN/global/elements/buttons/notifymes.gif); }
 
 #productheader a.buynow:hover, #productheader a.buynow:focus,
 #productheader a.ordernow:hover, #productheader a.ordernow:focus,

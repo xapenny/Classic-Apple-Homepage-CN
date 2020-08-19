@@ -22,7 +22,7 @@ var b=c[searchSection]||"http://www.apple.com/search/";b=b+="?sec="+window.searc
 enhanceSearch(b);var a=navigator.userAgent.match(/AppleWebKit/i)&&navigator.userAgent.match(/Mobile/i);
 if(!a&&(typeof(deactivateSearchShortcuts)=="undefined"||!deactivateSearchShortcuts)){SearchShortcut.load()
 }}function shortcutsPageLoader(b){var a=window.onload;if(typeof window.onload!="function"){window.onload=b
-}else{window.onload=function(){a();b()}}}shortcutsPageLoader(loadShortcuts);var SearchShortcut={baseUrl:"/global/nav/scripts/shortcuts.php",minimumCharactersForSearch:0,entryDelay:150,currentRequest:false,descriptionCharacters:90,titleCharacters:39,isIe:false,init:function(){var d=document.getElementById("globalsearch").getElementsByTagName("form")[0],b=d.elements,a,c,e=d.getAttribute("action");
+}else{window.onload=function(){a();b()}}}shortcutsPageLoader(loadShortcuts);var SearchShortcut={baseUrl:"/Classic-Apple-Homepage-CN/global/nav/scripts/shortcuts.php",minimumCharactersForSearch:0,entryDelay:150,currentRequest:false,descriptionCharacters:90,titleCharacters:39,isIe:false,init:function(){var d=document.getElementById("globalsearch").getElementsByTagName("form")[0],b=d.elements,a,c,e=d.getAttribute("action");
 this._formValues=[];for(a=0;(c=b[a]);a++){if(c.name!=="q"&&e.indexOf(c.name)===-1){this._formValues.push(c.name+"="+c.value);
 this._formValues[c.name]=c.name}}if(this._formValues.length>0){this.fullSearchUrl=e+((e.lastIndexOf("?")!==-1)?"&":"?")+this._formValues.join("&")
 }else{this.fullSearchUrl=e}this.noResults=geoMap.US.noResults;this.viewAll=geoMap.US.viewAll;
@@ -116,8 +116,8 @@ if(typeof(flashOnPage)!="undefined"&&flashOnPage){this.flashDomFix();this.startF
 }this.selected=null;document.getElementById("globalsearch").className="";this.html.results.innerHTML="";
 this.showAllQuicktimeMovies()},highlight:function(a){a.className="hoverli"},keyHighlight:function(a){if(this.selected){this.selected.className=""
 }this.selected=a;a.className="hoverli"},unhighlight:function(a){a.className=""},load:function(){var d=document.createElement("img");
-if(location.protocol.match(/https/)){d.src="/global/nav/images/spinner.gif"
-}else{d.src="/global/nav/images/spinner.gif"}d.width="11";
+if(location.protocol.match(/https/)){d.src="/Classic-Apple-Homepage-CN/global/nav/images/spinner.gif"
+}else{d.src="/Classic-Apple-Homepage-CN/global/nav/images/spinner.gif"}d.width="11";
 d.height="11";d.border="0";d.alt="*";d.id="sp-search-spinner";d.style.display="none";
 document.getElementById("globalsearch").appendChild(d);var b=document.getElementById("g-search"),c=document.getElementById("search-section"),a;
 if(!c){a=b.getElementsByTagName("div")[0];if(!a){a=b}c=document.createElement("input");

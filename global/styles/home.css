@@ -1,7 +1,7 @@
 /* BILLBOARD */
 #billboard, #promos, #headlines, #ticker, #options, #links, #homefooter { width: 980px; margin: 0 auto 10px; clear: both; color: #76797c; }
 #billboard img.bottom { padding: 0; border: 0; margin: 0; margin-bottom: 16px; }
-#billboard a.more { padding-right: 8px; background: url(/global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; text-decoration: none; }
+#billboard a.more { padding-right: 8px; background: url(/Classic-Apple-Homepage-CN/global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; text-decoration: none; }
 #billboard a.more:hover { text-decoration: underline; }
 #billboard .left { float: left; }
 #billboard .content img.headline {margin: 10px 2px 6px 0; }
@@ -17,8 +17,8 @@
 
 /* TICKER */
 .wrapper { width: 980px; margin: 0 auto; }
-#ticker { min-height: 26px; margin-bottom: 15px; background: #f6f6f6 url(/home/elements/ticker_btm_grey.gif) no-repeat 0 100%; /*position: relative;*/ }
-#ticker p { line-height: 16px; width: 100%; padding-top: 5px; padding-bottom: 0.2em; background: url(/home/elements/ticker_top_grey.gif) no-repeat 0 0; float: left; margin-bottom: 3px; }
+#ticker { min-height: 26px; margin-bottom: 15px; background: #f6f6f6 url(/Classic-Apple-Homepage-CN/home/elements/ticker_btm_grey.gif) no-repeat 0 100%; /*position: relative;*/ }
+#ticker p { line-height: 16px; width: 100%; padding-top: 5px; padding-bottom: 0.2em; background: url(/Classic-Apple-Homepage-CN/home/elements/ticker_top_grey.gif) no-repeat 0 0; float: left; margin-bottom: 3px; }
 #ticker a#ticker-headline { width: 12.5em; margin-right: 1em; color: #565656; font-weight: bold; text-align: center; border-right: 1px solid #808080; display: block; float: left; }
 #ticker a#news-headline { padding-left: 15px; color: #a1a5a9; float: right; }
 #ticker a { color: #6e6e6e; text-decoration: none; }
@@ -50,12 +50,12 @@
 #homefooter .sosumi ul.piped li a.first { margin-right: -0.2em; }
 
 /* WORLDWIDE */
-#worldwide { background: url(/home/elements/home-bg-choosecountry.gif) repeat-x 0 100%; border: 1px solid #e3e3e3; display: inline; padding: 10px 0 8px; position: relative; text-align: left; width: 200px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; -khtml-border-radius: 3px; }
+#worldwide { background: url(/Classic-Apple-Homepage-CN/home/elements/home-bg-choosecountry.gif) repeat-x 0 100%; border: 1px solid #e3e3e3; display: inline; padding: 10px 0 8px; position: relative; text-align: left; width: 200px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; -khtml-border-radius: 3px; }
 #worldwide { *height: 26px; *top: 3px; *margin-left: 10px; *top: 6px; *padding: 0; zoom: 1; }
 #worldwide a { height: 30px; padding: 3px 10px 3px 5px; width: 100%; *padding: 0 10px 0 5px; }
 #worldwide a:hover { text-decoration: none; }
 #worldwide a img { position: relative; top: 5px; padding: 0 5px 0 0; *float: left; *padding: 0; *top: 0; *margin: 2px 0 2px 3px; }
-#worldwide a span.more { background: url(/global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; border-left: 1px solid #e3e3e3; cursor: pointer; display: inline-block; line-height: 30px; margin: -5px 0; padding: 0 10px 0 5px; position: relative; top: 0; }
+#worldwide a span.more { background: url(/Classic-Apple-Homepage-CN/global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; border-left: 1px solid #e3e3e3; cursor: pointer; display: inline-block; line-height: 30px; margin: -5px 0; padding: 0 10px 0 5px; position: relative; top: 0; }
 #worldwide a span.more { *display: inline; *margin-top: 4px; *top: 0; zoom: 1; *line-height: 20px; }
 
 #ticker-rss-link {display: none;}
