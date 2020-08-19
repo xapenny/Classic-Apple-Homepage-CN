@@ -1,0 +1,90 @@
+/* GLOBALHEADER */
+#globalheader { width: 982px; height: 38px; margin: 18px auto; position: relative; z-index: 9998; }
+#globalheader #globalnav { margin: 0; padding: 0; zoom: 1; width: 100%;}
+#globalheader #globalnav:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#globalheader #globalnav li { display: inline; }
+#globalheader #globalnav li a { float: left; width: 103px; height: 0; padding-top: 38px; overflow: hidden; background-image: url(/global/nav/images/globalnavbg.png); _background-image: url(/global/nav/images/globalnavbg.gif); background-repeat: no-repeat; }
+#globalheader #globalsearch { background-image: url(/global/nav/images/globalnavbg.png); _background-image: url(/global/nav/images/globalnavbg.gif); background-repeat: no-repeat; }
+
+/* BUTTONS */
+#globalheader #globalnav li#gn-apple a { background-position: 0 0; }
+#globalheader #globalnav li#gn-store a { background-position: -103px 0; }
+#globalheader #globalnav li#gn-mac a { background-position: -206px 0; }
+#globalheader #globalnav li#gn-ipod a { background-position: -309px 0; }
+#globalheader #globalnav li#gn-iphone a { background-position: -412px 0; }
+#globalheader #globalnav li#gn-ipad a { background-position: -515px 0; }
+#globalheader #globalnav li#gn-itunes a { background-position: -618px 0; }
+#globalheader #globalnav li#gn-support a { background-position: -721px 0; }
+
+/* OVER STATES */
+#globalheader #globalnav li#gn-apple a:hover { background-position: 0 -38px; }
+#globalheader #globalnav li#gn-store a:hover { background-position: -103px -38px; }
+#globalheader #globalnav li#gn-mac a:hover { background-position: -206px -38px; }
+#globalheader #globalnav li#gn-ipod a:hover { background-position: -309px -38px; }
+#globalheader #globalnav li#gn-iphone a:hover { background-position: -412px -38px; }
+#globalheader #globalnav li#gn-ipad a:hover { background-position: -515px -38px; }
+#globalheader #globalnav li#gn-itunes a:hover { background-position: -618px -38px; }
+#globalheader #globalnav li#gn-support a:hover { background-position: -721px -38px; }
+
+/* PRESSED STATES */
+#globalheader #globalnav li#gn-apple a:active { background-position: 0 -76px; }
+#globalheader #globalnav li#gn-store a:active { background-position: -103px -76px; }
+#globalheader #globalnav li#gn-mac a:active { background-position: -206px -76px; }
+#globalheader #globalnav li#gn-ipod a:active { background-position: -309px -76px; }
+#globalheader #globalnav li#gn-iphone a:active { background-position: -412px -76px; }
+#globalheader #globalnav li#gn-ipad a:active { background-position: -515px -76px; }
+#globalheader #globalnav li#gn-itunes a:active { background-position: -618px -76px; }
+#globalheader #globalnav li#gn-support a:active { background-position: -721px -76px; }
+
+/* ON STATES */
+#globalheader.home #globalnav li#gn-apple a:hover { background-position: 0 0; cursor: default; }
+#globalheader.store #globalnav li#gn-store a { background-position: -103px -114px !important; }
+#globalheader.mac #globalnav li#gn-mac a { background-position: -206px -114px !important; }
+#globalheader.ipod #globalnav li#gn-ipod a { background-position: -309px -114px !important; }
+#globalheader.iphone #globalnav li#gn-iphone a { background-position: -412px -114px !important; }
+#globalheader.ipad #globalnav li#gn-ipad a { background-position: -515px -114px !important; }
+#globalheader.itunes #globalnav li#gn-itunes a { background-position: -618px -114px !important; }
+#globalheader.support #globalnav li#gn-support a { background-position: -721px -114px !important; }
+
+/* GLOBAL SEARCH */
+#globalsearch { width: 158px; height: 38px; position: absolute; top: 0; right: 0; background-position: 100% 0; background-repeat: no-repeat; }
+#globalsearch.active { background-position: 100% -38px; }
+#globalsearch input.g-prettysearch, #globalsearch .search-wrapper input.g-prettysearch {background: url(/global/nav/images/searchfield_repeat.png) center top repeat-x; }
+#globalsearch input.g-prettysearch { width:140px; height: 16px; margin-top: 9px; margin-left: 8px; }
+#globalsearch .search-wrapper { position: relative; width: 140px; margin-top: 9px; margin-left: 8px; }
+#globalsearch .search-wrapper input.g-prettysearch { width: 110px; margin-left: 17px; *margin-top:-1px; *margin-right:-2px; *margin-left:7px; }
+#globalsearch .search-wrapper .left,
+#globalsearch .search-wrapper .left { display: block; position: absolute; left: 0; top: 0; width: 20px; height: 19px; background: url(/global/nav/images/searchfield_leftcap.png) left top no-repeat; }
+#globalsearch .search-wrapper .right { display: block; position: absolute; right: 0; top: 0; width: 10px; height: 19px; background: url(/global/nav/images/searchfield_rightcap.png) right top no-repeat; }
+#globalsearch .search-wrapper.empty.blurred input { color: #7E7E7E; }
+#globalsearch .search-wrapper .reset { position: absolute; width: 11px; height: 11px; overflow:hidden; z-index: 1; right: 4px; top: 4px; background: url(/global/nav/images/close.gif); display: block; cursor: pointer; _cursor:hand; }
+#globalsearch .search-wrapper.empty .reset { display: none; }
+#globalsearch .search-wrapper input.g-prettysearch { position: absolute; width: 110px; top: 0; right: 10px; border: 0px; margin: 0; padding: 3px 0 0 0; font: 11px "Lucida Grande", Arial, sans-serif; }
+#globalsearch label .prettyplaceholder { display: block; overflow: hidden; text-indent: -9999px; height: 0; width: 0;}
+
+#globalsearch input[type=search].not-round { background: #ABABAB; height: 19px; outline: none; -webkit-border-radius: 9px; -webkit-border-image: url(/global/nav/images/searchfield_border.png) 2 2 2 2 stretch stretch; width: 133px; }
+
+/* SEARCH SHORTCUTS */
+#sp-results { position: absolute; margin-right: -2px; margin-bottom: 0; margin-left: 0; top: 61px; left: 160px; height: 0; }
+#sp-results .inside { width: 328px; height: auto; position: absolute; top: 0; right: 0; line-height: 1px; font-size: 1px; }
+#sp-results .resultCat { position: relative; color: #f6f6f6; background: #919191; width: 308px; height: 8px; margin: 0; padding-bottom: 12px; width: 302px; font: 11px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif; font-weight: bold; border: 1px none #fb6bff; }
+ul.sp-results { background: url(/global/nav/images/shortcuts_bg_mid_grey.png) repeat-y 0 0; _background: url(/global/nav/images/shortcuts_bg_mid_grey.gif) repeat-y 0 0; color: #333; padding: 0 3px; margin: 0; _margin-right: 5px; width: 328px; text-align: left; font: 10px/14px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif; }
+ul.sp-results li { display: block; margin: 0 0 -3px 0; padding: 5px 10px; list-style-type: none; height: 4.6em; position: relative; border-left: 1px solid #919191; border-right: 1px solid #919191; width: 300px; }
+ul.sp-results li.viewall { width: 308px; height: 20px; text-align: right; color: #000; position: absolute; bottom: -30px; *bottom: -27px; left: 0px; background: url(/global/nav/images/shortcuts_bg_foot_grey.png) no-repeat left bottom; _background: url(/global/nav/images/shortcuts_bg_foot_grey.gif) no-repeat left bottom; border-style: none; }
+ul.sp-results li.viewall a { color: #fff; padding-right: 23px; background: url(/global/nav/images/shortcuts_arrow.gif) no-repeat 99% 50%; padding-top: 3px; padding-bottom: 3px; font: bold 11px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif; }
+ul.sp-results li.hoverli { background: #b7b7b7 none repeat-x; color: #fff; cursor: pointer; }
+ul.sp-results li.hoverli h4 a { color: #fff; }
+ul.sp-results li.hoverli p { color: #f1f1f1; }
+ul.sp-results li span.text { display: block; position: absolute; left: 68px; width: 240px; }
+ul.sp-results li h4 { margin: 0; font-size: 11px; font-weight: bold; }
+ul.sp-results li p { margin: 0; font-size: 10px; overflow: hidden; height: 2.7em; color: #555; }
+ul.sp-results li a { color: #606060; text-decoration: none; height: auto; width: auto; overflow: visible; background: none; }
+ul.sp-results li img,
+ul.sp-results li .replacementimg { position: absolute; left: 10px; width: 46px; height: 46px; }
+ul.sp-results li h4 a { color: #191919; }
+ul.sp-results li.viewall.hover { background: url(/global/nav/images/shortcuts_bg_foot_grey.png) no-repeat bottom left; }
+#sp-search-spinner { position: absolute; top: 13px; right: 14px; z-index: 10; display: none; }
+#sp-search-cancel img { cursor: pointer; }
+#sp-results .firstCat { position: absolute; top: -25px; left: 0; width: 308px; height: 8px; background: url(/global/nav/images/shortcuts_bg_head_grey.png) no-repeat left top; _background: url(/global/nav/images/shortcuts_bg_head_grey.gif) no-repeat left top; }
+#sp-result-none.viewall { bottom: -27px; *bottom: -27px;}
+#sp-result-none.viewall a { font-size: 10px; }
